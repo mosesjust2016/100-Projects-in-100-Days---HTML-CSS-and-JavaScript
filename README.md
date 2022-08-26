@@ -2,7 +2,7 @@
 A daily excercise to work on mini projects 
 
 <p align="center">
-	<b>mini Projects</b> (	
+	<b>mini Projects</b> 
 </p>
 
 ## Table of Contents
