@@ -1,8 +1,8 @@
 # 100 HTML, CSS and Javascript Challenges 
 A daily excercise to work on mini projects 
 
-<p align="center">
-	<b>mini Projects</b> 
+<p align="left">
+	<b>Mini Projects</b> 
 </p>
 
 ## Table of Contents
