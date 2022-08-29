@@ -9,7 +9,8 @@ A daily excercise to work on mini projects
 
 * [Word Scramble]
 * [QR Code Reader]
-* [ QR Code Generator]
+* [QR Code Generator]
+* [Currency Convertor]
 
 
 # 1- Word Scramble 
