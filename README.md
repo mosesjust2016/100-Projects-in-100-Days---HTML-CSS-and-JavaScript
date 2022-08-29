@@ -18,3 +18,5 @@ is a game where the letters that can make a meaningful word are shuffled or scra
 upload a QRCode image and use QRCODE API server to read and decryt the message 
 # 3 - QR Code Generator
 A user can enter a text or URL to generate a QR code. The QRCode it is saved as an image
+# 4 - Currency Convetor 
+A user can enter amount and convert your currency to a different country’s currency. Conversion is done using the following API https://v6.exchangerate-api.com/
