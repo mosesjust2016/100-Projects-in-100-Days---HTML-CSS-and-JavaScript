@@ -11,6 +11,8 @@ A daily excercise to work on mini projects
 * [QR Code Reader]
 * [QR Code Generator]
 * [Currency Convertor]
+* [User Location]
+* [Weather App]
 
 
 # 1- Word Scramble 
@@ -21,3 +23,7 @@ upload a QRCode image and use QRCODE API server to read and decryt the message
 A user can enter a text or URL to generate a QR code. The QRCode it is saved as an image
 # 4 - Currency Convetor 
 A user can enter amount and convert your currency to a different country’s currency. Conversion is done using the following API https://v6.exchangerate-api.com/
+# 5 - User Location
+Using the geolocation API to get current latitude and longitude coordinates of the user device. Then using fetch API, send a get request to the opencagedata server with passing those coordinates and got all the location details. API - https://api.opencagedata.com/
+# 6 - Weather App 
+A user can get the weather details of a particular city by entering the city name or you can also get your current location weather details by clicking on the “Get Device Location” button.
