@@ -30,4 +30,7 @@ Using the geolocation API to get current latitude and longitude coordinates of t
 A user can get the weather details of a particular city by entering the city name or you can also get your current location weather details by clicking on the “Get Device Location” button. The weather API the is being Implemented is https://api.openweathermap.org
 # 7 - Internet Connection Status
 Using ajax 	will send a request to a url in the process will check if data is being send. If the passed URL is sending data as a response and the response status of that URL is also equal to 200 then the user is connected to the Internet 
+# 8 - Adblocker
+Adblocker block the flowing classes ad, ads, ad-banner, ad-box, ad-badge. I haveve created an element and added these classes in it and check what this element is returning. If AdBlocker is enabled then it willl return display: none;
+
 
