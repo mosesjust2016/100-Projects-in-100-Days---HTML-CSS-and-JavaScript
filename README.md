@@ -13,6 +13,7 @@ A daily excercise to work on mini projects
 * [Currency Convertor]
 * [User Location]
 * [Weather App]
+* [Internet Connection Status]
 
 
 # 1- Word Scramble 
@@ -27,4 +28,6 @@ A user can enter amount and convert your currency to a different country’s cur
 Using the geolocation API to get current latitude and longitude coordinates of the user device. Then using fetch API, send a get request to the opencagedata server with passing those coordinates and got all the location details. API - https://api.opencagedata.com/
 # 6 - Weather App 
 A user can get the weather details of a particular city by entering the city name or you can also get your current location weather details by clicking on the “Get Device Location” button. The weather API the is being Implemented is https://api.openweathermap.org
+# 7 - Internet Connection Status
+Using ajax 	will send a request to a url in the process will check if data is being send. If the passed URL is sending data as a response and the response status of that URL is also equal to 200 then the user is connected to the Internet 
 
