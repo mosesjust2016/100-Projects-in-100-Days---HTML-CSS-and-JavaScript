@@ -14,6 +14,7 @@ A daily excercise to work on mini projects
 * [User Location]
 * [Weather App]
 * [Internet Connection Status]
+* [Adblocker ]
 
 
 # 1- Word Scramble 
