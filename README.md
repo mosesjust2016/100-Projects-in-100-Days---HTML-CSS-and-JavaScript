@@ -14,7 +14,9 @@ A daily excercise to work on mini projects
 * [User Location]
 * [Weather App]
 * [Internet Connection Status]
-* [Adblocker ]
+* [Adblocker]
+* [Meal API]
+* [MovieDB API]
 
 
 # 1- Word Scramble 
@@ -36,6 +38,6 @@ Adblocker block the flowing classes ad, ads, ad-banner, ad-box, ad-badge. I have
 # 9 - Meal API
 Get a random meal. This application call a web API www.themealdb.com/api/json/v1/1/random.php. You click a button the it will bring up meal, place of origin , ingredients ansd how to prepare it. if the youtube video is readily available it will bring it up;
 # 10 - MovieDB API
-Making use of moviedb API to build a simple movie app that shows a list of movie titles and images;
+Making use of moviedb API to build a simple movie app that shows a list of movie titles and images. The Endpoints called are https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=API-KEY&page=1, https://api.themoviedb.org/3/search/movie?&api_key=API-KEY&query=;
 
 
