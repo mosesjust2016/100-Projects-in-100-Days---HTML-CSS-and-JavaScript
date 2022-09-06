@@ -18,6 +18,7 @@ A daily excercise to work on mini projects
 * [Meal API]
 * [MovieDB API]
 * [GitHub API]
+* [Random Quote Generator]
 
 
 # 1- Word Scramble 
@@ -42,4 +43,6 @@ Get a random meal. This application call a web API www.themealdb.com/api/json/v1
 Making use of moviedb API to build a simple movie app that shows a list of movie titles and images. The Endpoints called are https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=API-KEY&page=1, https://api.themoviedb.org/3/search/movie?&api_key=API-KEY&query=;
 # 11 - GitHub API
 Making use of GitHub API to build an app that displays the profile of a github user when you type their name or username;
+# 12 - Random Quote Generator
+To show random quotes, I used a free API named quotable https://quotable.io/random using the quotable API I fetched the random quotes and showed them on the Quote App. With speech functionality and twitter share button
 
