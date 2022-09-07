@@ -19,6 +19,7 @@ A daily excercise to work on mini projects
 * [MovieDB API]
 * [GitHub API]
 * [Random Quote Generator]
+* [Password Show Hide]
 
 
 # 1- Word Scramble 
@@ -45,4 +46,5 @@ Making use of moviedb API to build a simple movie app that shows a list of movie
 Making use of GitHub API to build an app that displays the profile of a github user when you type their name or username;
 # 12 - Random Quote Generator
 To show random quotes, I used a free API named quotable https://quotable.io/random using the quotable API I fetched the random quotes and showed them on the Quote App. With speech functionality and twitter share button
-
+# 13 - Password Show Hide
+Using show hide eye button you can see there is a password field with the password. When you entered some password in that field hey will be hidden by default, when you click on that eye icon the characters will be displayed in plain text format.
