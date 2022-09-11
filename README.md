@@ -21,7 +21,9 @@ A daily excercise to work on mini projects
 * [Random Quote Generator]
 * [Password Show Hide]
 * [Email Validation]
+* [OTP Verification]
 * [Timer Multiple Choice Quiz]
+* [Language Translator]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -51,5 +53,11 @@ To show random quotes, I used a free API named quotable https://quotable.io/rand
 Using show hide eye button you can see there is a password field with the password. When you entered some password in that field hey will be hidden by default, when you click on that eye icon the characters will be displayed in plain text format.
 # 14 - Email Validation
 Validating the user-entered email address by using  regex pattern for validation and match the user entered inputs with this pattern. If the user entered email address is matched with the given pattern that means the user has entered a valid email else entered email is not valid
-# 15 - Timer Quiz
+# 15 - OTP Verification
+
+
+# 16 - Timer Quiz
 A multiple choice quiz that has 15 secs per question when you select the wrong answer it will tell you and prompt you to go to the next question 
+
+# 17 - Language Translator
+Using an API to convert user-entered text into different languages. This API is used only to convert text into other languages. I have also included the text to voice function 
