@@ -24,6 +24,7 @@ A daily excercise to work on mini projects
 * [OTP Verification]
 * [Timer Multiple Choice Quiz]
 * [Language Translator]
+* [Text To Speech]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -61,3 +62,6 @@ A multiple choice quiz that has 15 secs per question when you select the wrong a
 
 # 17 - Language Translator
 Using an API to convert user-entered text into different languages. This API is used only to convert text into other languages. I have also included the text to voice function 
+
+# 18 - Text To Speech
+Making text to speech app using vanilla Javascript using the speech synthesis property of the window object convert the entered text to speech. Speech Synthesis is a web speech API that controls the speech service.
