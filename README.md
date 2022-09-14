@@ -26,6 +26,7 @@ A daily excercise to work on mini projects
 * [Language Translator]
 * [Text To Speech]
 * [Confirm Password and validate]
+* [Send Email]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -66,3 +67,5 @@ Using an API to convert user-entered text into different languages. This API is 
 Making text to speech app using vanilla Javascript using the speech synthesis property of the window object convert the entered text to speech. Speech Synthesis is a web speech API that controls the speech service.
 # 19 - Confirm Password and validate
 If your password and confirm password matched with each other then there is displayed a success message but if you’re two passwords not matched with each other then there is displayed an error message.
+# 20 - Send Email
+Sending email using mailjet API 
