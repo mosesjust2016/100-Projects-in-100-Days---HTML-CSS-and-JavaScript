@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Send Email</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+           <div class="col-md-4 offset-md-4 mail-form">
+              <h2 class="text-center">
+                 Send Message
+              </h2>
+              <p class="text-center">
+                 Send mail to anyone.
+              </p>
+            
+              <form id="sendEmailForm" method="POST" novalidate>
+                 <div class="form-group">
+                    <input class="form-control" name="email" type="email" placeholder="Recipients">
+                 </div>
+                 <div class="form-group">
+                    <input class="form-control" name="subject" type="text" placeholder="Subject">
+                 </div>
+                 <div class="form-group">
+                    <!-- change this tag name into textarea to show textarea field. Due to more textarea I got an error, so I change the name of this field -->
+                    <textarea cols="30" rows="5" class="form-control textarea" name="message" placeholder="Compose your message.."></textarea>
+                 </div>
+                 <div class="form-group">
+                    <input class="form-control button btn-primary" type="submit" name="send" value="Send" placeholder="Subject">
+                 </div>
+              </form>
+           </div>
+        </div>
+     </div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script>
+       $(document).on('submit', '#sendEmailForm', function() {
+
+         let mail =  document.getElementById("email").value;
+         let title =  document.getElementById("subject").value;
+         let msg =  document.getElementById("message").value;
+
+         sendMail(mail, title, msg);
+
+
+        function sendMail(email, subject, message) {
+            const myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/json");
+            myHeaders.set('Authorization', 'Basic ' + base64.encode('API ID'+":" +'APIKEY'));
+
+            const data = JSON.stringify({
+                "Messages": [{
+                "From": {"Email": "mjjustme26@gmail.com", "Name": "MJ"},
+                "To": [{"Email": email, "Name": name}],
+                "Subject": subject,
+                "TextPart": message
+                }]
+            });
+
+            const requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: data,
+            };
+
+            fetch("https://api.mailjet.com/v3.1/send", requestOptions)
+                .then(response => response.text())
+                .then(result => console.log(result))
+                .catch(error => console.log('error', error));
+            }
+      });
+     </script>
+
+    
+</body>
+</html>
