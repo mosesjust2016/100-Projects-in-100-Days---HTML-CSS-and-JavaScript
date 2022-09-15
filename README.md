@@ -27,6 +27,7 @@ A daily excercise to work on mini projects
 * [Text To Speech]
 * [Confirm Password and validate]
 * [Send Email]
+* [Login Page]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -68,4 +69,7 @@ Making text to speech app using vanilla Javascript using the speech synthesis pr
 # 19 - Confirm Password and validate
 If your password and confirm password matched with each other then there is displayed a success message but if you’re two passwords not matched with each other then there is displayed an error message.
 # 20 - Send Email
-Sending email using mailjet API 
+Sending email using mailjet API .
+
+# 21 - Login Page 
+A login for that gets username and password there is no backend intergration just playing around with design part 
