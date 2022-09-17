@@ -28,6 +28,7 @@ A daily excercise to work on mini projects
 * [Confirm Password and validate]
 * [Send Email]
 * [Login Page]
+* [File Download ]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -70,6 +71,8 @@ Making text to speech app using vanilla Javascript using the speech synthesis pr
 If your password and confirm password matched with each other then there is displayed a success message but if you’re two passwords not matched with each other then there is displayed an error message.
 # 20 - Send Email
 Sending email using mailjet API .
-
 # 21 - Login Page 
-A login for that gets username and password there is no backend intergration just playing around with design part 
+A login for that gets username and password there is no backend intergration just playing around with design part
+# 22 - File Download 
+An app you can use to download any file like image, video, pdf, svg, etc. This happens when you paste a valid URL of the file and click the download button to download the file.
+ 
