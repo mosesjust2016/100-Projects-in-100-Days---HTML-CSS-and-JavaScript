@@ -76,6 +76,6 @@ Sending email using mailjet API .
 A login for that gets username and password there is no backend intergration just playing around with design part
 # 22 - File Download 
 An app you can use to download any file like image, video, pdf, svg, etc. This happens when you paste a valid URL of the file and click the download button to download the file.
-# 22 - File Upload with Progress Bar 
+# 23 - File Upload with Progress Bar 
 An implementation of file upload that will allow users to upload files to a ffolder on the system and show the progress until the file has been uploaded 100%. 
  
