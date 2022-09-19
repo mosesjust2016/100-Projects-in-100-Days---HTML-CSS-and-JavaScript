@@ -30,6 +30,7 @@ A daily excercise to work on mini projects
 * [Login Page]
 * [File Download]
 * [File Upload]
+* [Drag & Drop File upload]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -77,5 +78,8 @@ A login for that gets username and password there is no backend intergration jus
 # 22 - File Download 
 An app you can use to download any file like image, video, pdf, svg, etc. This happens when you paste a valid URL of the file and click the download button to download the file.
 # 23 - File Upload with Progress Bar 
-An implementation of file upload that will allow users to upload files to a ffolder on the system and show the progress until the file has been uploaded 100%. 
+An implementation of file upload that will allow users to upload files to a folder on the system and show the progress until the file has been uploaded 100%. 
+# 24 - Drag & Drop File upload
+An implementation of file upload that will allow users to upload files to a folder on the system. Uig drag and drop functionality in javascript
+
  
