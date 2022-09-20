@@ -80,6 +80,9 @@ An app you can use to download any file like image, video, pdf, svg, etc. This h
 # 23 - File Upload with Progress Bar 
 An implementation of file upload that will allow users to upload files to a folder on the system and show the progress until the file has been uploaded 100%. 
 # 24 - Drag & Drop File upload
-An implementation of file upload that will allow users to upload files to a folder on the system. Uig drag and drop functionality in javascript
+An implementation of file upload that will allow users to upload files to a folder on the system. Using drag and drop functionality in javascript
+# 25 - Adding mining page to Petrushka
+Making changes to a website
+
 
  
