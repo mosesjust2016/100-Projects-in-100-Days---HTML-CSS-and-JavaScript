@@ -31,6 +31,7 @@ A daily excercise to work on mini projects
 * [File Download]
 * [File Upload]
 * [Drag & Drop File upload]
+* [ToDo App]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -83,6 +84,10 @@ An implementation of file upload that will allow users to upload files to a fold
 An implementation of file upload that will allow users to upload files to a folder on the system. Using drag and drop functionality in javascript
 # 25 - Adding mining page to Petrushka
 Making changes to a website
+# 26 - Creating API for todo 
+Creating a todo list API
+# 27 - ToDo App
+A to-do list is a list of tasks you need to do and in this design there is a content box that holds only the input field with some buttons and text. When you enter a task and click on the plus button, the list will be added to your tasks list and the number of the pending tasks also be updated to localstorage
 
 
  
