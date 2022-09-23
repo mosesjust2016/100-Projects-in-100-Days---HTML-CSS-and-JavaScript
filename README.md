@@ -32,6 +32,7 @@ A daily excercise to work on mini projects
 * [File Upload]
 * [Drag & Drop File upload]
 * [ToDo App]
+* [Dictionary App]
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -88,6 +89,9 @@ Making changes to a website
 Creating a todo list API
 # 27 - ToDo App
 A to-do list is a list of tasks you need to do and in this design there is a content box that holds only the input field with some buttons and text. When you enter a task and click on the plus button, the list will be added to your tasks list and the number of the pending tasks also be updated to localstorage
+# 28 Dictionary App
+If the searched word exists then API returns an object of the searched word which holds many details (definition, example, synonyms) of the word else it returns a message of “Can’t find the definitions”. The API called https://api.dictionaryapi.dev
+
 
 
  
