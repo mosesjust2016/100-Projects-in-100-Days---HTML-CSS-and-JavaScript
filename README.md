@@ -34,6 +34,7 @@ A daily excercise to work on mini projects
 * [ToDo App]
 * [Dictionary App]
 * [Palindrome Checker]
+* []
 
 # 1- Word Scramble 
 is a game where the letters that can make a meaningful word are shuffled or scrambled randomly, and players have to find out the correct word using those random letters.
@@ -94,5 +95,5 @@ A to-do list is a list of tasks you need to do and in this design there is a con
 If the searched word exists then API returns an object of the searched word which holds many details (definition, example, synonyms) of the word else it returns a message of “Can’t find the definitions”. The API called https://api.dictionaryapi.dev
 # 29 Palindrome Checker
 I got this value, I removed the spaces, special characters from it and stored this filtered value in the filterInput variable. Then reversed the filtered value and stored this reversed value in the reversedInput variable. At last, I checked the filterInput and reversedInput.
-
- 
+# 30 - Save Text As File
+When you type some text into the text box, select the file format, and hit the “save” button, a new file will be saved on your computer with the entered text in it.
